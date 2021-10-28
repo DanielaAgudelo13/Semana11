@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Semana 11</title>
+        <link rel="stylesheet" href="css/index.css" />
+    </head>
+    <body>
+        <div id="Publicación">
+            <h1>Postea en que estas pensando</h1>
+
+            <input id="userName" placeholder="Nombre de usuario" type="text" />
+            <br />
+            <input
+                id="postUser"
+                placeholder="Escribe lo que piensas"
+                type="text"
+            />
+            <br />
+            <button id="publicButton">Publicar</button>
+        </div>
+
+        <div id="answer">
+            <h2>Ultimos posts</h2>
+
+            <div id="answerContainer"></div>
+        </div>
+    </body>
+</html>
+<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
+<script src="./Js/firebase.js"></script>
+
+<script src="./Componentes/FilePost.js"></script>
+<script src="./js/index.js"></script>
